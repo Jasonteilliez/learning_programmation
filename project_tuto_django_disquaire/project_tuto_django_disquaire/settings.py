@@ -20,12 +20,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/dev/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-jx8hi%v4$@fu=@fcc))0p3*$_yt$yjbw*hbin4*k3r5ut9bse^'
+SECRET_KEY = 
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -80,10 +80,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql', # on utilise l'adaptateur postgresql
         'NAME': 'disquaire', # le nom de notre base de donnees creee precedemment
-        'USER': 'jason', # attention : remplacez par votre nom d'utilisateur
-        'PASSWORD': '25091990',
+        'USER': , # attention : remplacez par votre nom d'utilisateur
+        'PASSWORD': '',
         'HOST': '',
-        'PORT': '5432',
+        'PORT': '',
     }
 }
 
@@ -127,7 +127,7 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 INTERNAL_IPS = [
-    '127.0.0.1'
+    ''
 ]
 # Default primary key field type
 # https://docs.djangoproject.com/en/dev/ref/settings/#default-auto-field
